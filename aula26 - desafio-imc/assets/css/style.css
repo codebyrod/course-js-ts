@@ -37,7 +37,6 @@ form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
-
 }
 
 form input:focus {
@@ -58,20 +57,13 @@ form button:hover {
     background: rgb(9, 48, 56);
 }
 
-/* form button:active {
-    background: red;
-} */
-
-.erro p{
-    background: rgb(216, 58, 58);
-    color: #ffff;
+.paragrafo-resultado{
+    background: rgb(61, 199, 146);
+    color: rgb(34, 34, 34);
     height: 1.5em;
     text-align: center;
 }
 
-.resultado p{
-    background: rgb(61, 199, 146);
-    color: #ffff;
-    height: 1.5em;
-    text-align: center;
+.erro{
+    background: rgb(216, 58, 58);
 }
