@@ -32,26 +32,32 @@ console.log(primeiroNumero);
 */
 
 // valores por atribuição via desestruturação
-/* const [primeiroNumero, segundoNumero] = numeros;
+/* 
+const [primeiroNumero, segundoNumero] = numeros;
 console.log(primeiroNumero, segundoNumero);
  */
 
 // Atribuindo o resto, usaremos ... e o nome da variavel que vai receber esse resto
 // O nome desse operador é rest operator ...rest
 // tb tem o operador de espalhamento ...spread
+
 /* const [um, dois, três, ...resto] = numeros;
 console.log(um, dois, três);
-console.log(resto);
- */
-
-//pulando valores do array com espaços vazios entre vírgulas
-/* const [um, , três, , cinco, ...resto] = numeros;
-console.log(um, três, cinco);
 console.log(resto); */
 
+
+//pulando valores do array com espaços vazios entre vírgulas
+/*
+const [um, , três, , cinco, ...resto] = numeros;
+console.log(um, três, cinco);
+console.log(resto); 
+*/
+
 //Acessando arrays multidimensionais
-/* const arrayMulti = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
-console.log(numeros[1][2]); */
+/* 
+const arrayMulti = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+console.log(numeros[1][2]); 
+*/
 
 //Atribuindo via desestruturação arrays multidimensionais
 const numeros = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
@@ -59,3 +65,5 @@ const numeros = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 //acessamos o segundo array
 // virgula virgula para pular o indice 0 e 1, e no indice 2 declaramos a variavel
 const [,[,,seis]] = numeros;
+console.log(seis);
+
