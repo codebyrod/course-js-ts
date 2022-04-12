@@ -10,14 +10,6 @@ const div = document.createElement('div');
 for(let i = 0; i < elementos.length; i++) {
     let {tag, texto} = elementos[i];
     let tagCriada = document.createElement(tag);
-    /* 
-    //Podemos substituir o innerHTML pelo innerText por dois motivos
-    //1. mais seguro
-    //2. estamos apenas inserindo texto
-    //tagCriada.innerHTML = texto;
-    //tagCriada.innerText = texto 
-    */
-    //Podemos inserir um Nó de Texto (NodeText)
     let textoCriado = document.createTextNode(texto);
     tagCriada.appendChild(textoCriado)
     div.appendChild(tagCriada);
