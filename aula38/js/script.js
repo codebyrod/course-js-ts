@@ -33,15 +33,15 @@ console.log('#######')
 
 // For of retorna o valor
 
-// const nome = 'Luiz Otávio';
+//const nome = 'Luiz Otávio';
 for (let valor of nome) {
     console.log(valor);
 }
 
 // const nomes = ['Luiz', 'Otávio', 'Henrique'];
-for (let valor of nomes) {
+/* for (let valor of nomes) {
     console.log(valor);
-}
+} */
 
 console.log('#######')
 
