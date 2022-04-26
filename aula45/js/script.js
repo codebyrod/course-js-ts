@@ -22,7 +22,7 @@ ReferenceError: naoExisto is not defined
 
 function soma(x, y) {
     if (typeof x !== 'number' || typeof y !== 'number' ) {
-        throw new Error('x e y precisam ser números.') 
+        throw new Error('x e y precisam ser números.');
         //throw estamos tratando o potencial erro.
         //Estamos usando uma função construtora pra isso
     }
