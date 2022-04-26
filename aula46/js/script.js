@@ -15,10 +15,10 @@ try {
 } finally {
     console.log('FINALLY: Eu sempre sou executado');
 } */
-//Abri um arquivo
-//Manipulei um arquivo e gerou erro
-//Fechei um arquivo
-//FINALLY: Eu sempre sou executado
+//Abri um arquivo;
+//Manipulei um arquivo e gerou erro;
+//Fechei um arquivo;
+//FINALLY: Eu sempre sou executado;
 
 /* try {
     console.log(a); //ERRO
