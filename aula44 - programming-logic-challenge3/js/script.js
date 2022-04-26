@@ -10,7 +10,7 @@ const isDivible = (num) => {
     //const div3 = num % 3
     //const div5 = num % 5
     if (typeof num !== 'number') {
-        return `${num} não é um número`
+        return `${num} não é um número`;
     }
 
     if (num % 3 === 0 && num % 5 === 0) {
@@ -24,7 +24,7 @@ const isDivible = (num) => {
     }
 }
 
-console.log('teste typeof  ####', isDivible('teste'))
+console.log('teste typeof  ####', isDivible('teste'));
 
 for (let i = 0; i <= 100; i++) {
     console.log(isDivible(i));
