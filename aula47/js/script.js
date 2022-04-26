@@ -13,19 +13,19 @@ console.log(mostraHora());
 
 //Pra trabalhar com intervalo de tempo setInterval();
 
-//Estamos criando uma função que retorna mostrra a outra função no console.log
+//Estamos criando uma função que retorna mostrra a outra função no console.log;
 /* function doInterval() {
     console.log(mostraHora());
 } */
 
-//Aqui estamos dando um intevalo de 1 segundo para executar a função
+//Aqui estamos dando um intevalo de 1 segundo para executar a função;
 //OBS: Não estamos executando a função, apenas passando por referência
-//setInterval(doInterval, 1000) //crtl+c para parar o terminal
+//setInterval(doInterval, 1000) //crtl+c para parar o terminal;
 
 //FUNÇÃO ANÔNIMA
-//Quando precisarmos usar uma função para executar outra função podemos usar uma função anônima
+//Quando precisarmos usar uma função para executar outra função podemos usar uma função anônima;
 
-//Usando um intervalo de execução da função de mostraHora com uma função anônima e um intervalo de tempo
+//Usando um intervalo de execução da função de mostraHora com uma função anônima e um intervalo de tempo;
 /* setInterval(function () {
     console.log(mostraHora(), 1000);
 }); */
