@@ -4,7 +4,7 @@
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 //UTILIZANDO FOR OF PARA EXEMPLO
-/* for (let numero of numeros) {
+for (let numero of numeros) {
 
     //CONTINUE
     //pula para a próxima iteração do laço
@@ -22,7 +22,7 @@ const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     } //1, 3, 4, 6, 7, 8, 9
 
     console.log(numero); //1, 3, 4, 6, 7, 7 encontrando, saindo...
-    
+
     //BREAK
     // break serve para parar uma ação, útil para economizar recursos e otimizar a velocidade do nosso código
     //Ex vamos encontrar o 7, assim que encontrarmos o 7 não faz sentido ainda rodar o código
@@ -31,7 +31,7 @@ const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
         console.log('7 encontrado, saindo...');
         break
     }
-} */
+}
 
 //FAZENDO A MESMA COISA COM FOR IN
 /* for (let i in numeros) {

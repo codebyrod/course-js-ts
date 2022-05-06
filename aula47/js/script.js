@@ -1,3 +1,4 @@
+//Estamos criando uma função que retorna a hora atual
 function mostraHora() {
     let data = new Date();
 
@@ -13,7 +14,7 @@ console.log(mostraHora());
 
 //Pra trabalhar com intervalo de tempo setInterval();
 
-//Estamos criando uma função que retorna mostrra a outra função no console.log;
+//Estamos criando uma função doInterval que chama a outra função (mostraHora()) no console.log;
 /* function doInterval() {
     console.log(mostraHora());
 } */

@@ -43,7 +43,7 @@ function random(min, max) {
 
 const min = 1;
 const max = 50;
-let rand = 10
+let rand;
 
 //While checa a condição, depois executa. Aqui ela não vai executar nada
 while (rand !== 10) {

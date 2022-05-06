@@ -24,7 +24,7 @@ const isDivible = (num) => {
     }
 }
 
-console.log('teste typeof  ####', isDivible('teste'));
+//console.log('teste typeof  ####', isDivible('teste'));
 
 for (let i = 0; i <= 100; i++) {
     console.log(isDivible(i));
@@ -36,5 +36,5 @@ for (let i = 0; i <= 100; i++) {
 do {
     i++
     console.log(isDivible(i));
-} while (i <= 100) */
+} while (i <= 100); */
 

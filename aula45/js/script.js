@@ -1,4 +1,4 @@
-//SAber ler e tratar os erros
+//Saber ler e tratar os erros
 
 //Vamos criar uma variável que não existe
 //console.log(naoExisto);
