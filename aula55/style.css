@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --primary-color:  rgb(13, 106, 134)
+    --primary-color-darker:  rgb(9, 48, 56)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    background: rgb(13, 106, 134);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-input{
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-tarefa{
+    width: 50vw;
+    height: 5vw;
+    padding: 0.5em;
+    font-size: 1.3rem;
+    color: rgb(3, 46, 58);
+    border: 2px solid rgb(13, 96, 148);
+}
+
+.btn-tarefa{
+    width: 20vw;
+    height: 5vw;
+    background-color: rgb(13, 96, 148);
+    border: none;
+    color: #ffff;
+}
+
+.tarefas {
+    padding: 0.5em;
+}
+
+.apagar {
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(12, 81, 100);
+    border-radius: 7px;
+    color: #ffff;
+}
+
+.apagar:hover{
+    background-color: rgb(253, 7, 7);
+}
+
+.tarefas li {
+    border: 2px solid rgb(15, 116, 144);
+    border-radius: 7px;
+    margin: 0.4em 0 0.4em 0;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(3, 46, 58);
+}
+
