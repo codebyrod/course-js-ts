@@ -17,7 +17,7 @@ qualquerCoisa();
     //código aqui
 })();
 
-//Exemplo
+//EXEMPLO UM POUCO MAIS CONCRETO
 (function(idade, peso, altura) {
     const sobrenome = 'Sousa';
 
