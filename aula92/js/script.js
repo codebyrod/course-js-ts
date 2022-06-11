@@ -54,7 +54,7 @@ executa(); */
 
 // USANDO ASYNC AWAIT com try catch
 // substituímos esse then/catch por async 
-async function executa() {
+/* async function executa() {
     try{
         const fase1 = await esperaAi('Fase 1', rand());
         console.log(fase1);
@@ -71,8 +71,41 @@ async function executa() {
     } catch(e) {
         console.log(e);
     }
-}
+} 
 
 executa();
+*/
 
-// a palavra async vai nos permitir usar a palavra await para esperarmos uma promise ser usada
+// O uso de async/await e de promise depende do contexto. Tem lugar que é mais fácil e intuito usar uma ou outra.
+// a palavra async vai nos permitir usar a palavra await dentro de uma função para esperarmos uma promise ser finalizada.
+
+// As promises tem três estados
+// Pendente -> executada, mas ainda não retornou o valor.
+// Fulfilled -> resolvida
+// rejected -> rejeitada
+
+// PENDENTE
+async function executa2() {
+    try{
+        const fase1 = esperaAi('Fase 1', rand());
+        console.log(fase1);
+
+        setTimeout(function() {
+            console.log('Essa promise estava pendente');
+        }, 1100);
+    
+        const fase2 = await esperaAi('Fase 2', rand());
+        console.log(fase2);
+    
+        // Vai logar a fase 1 e a fase 2 e vai cair no erro.
+        const fase3 = await esperaAi(2, rand());
+        console.log(fase3);
+    
+        console.log('Terminamos na fase:', fase3)
+
+    } catch(e) {
+        console.log(e);
+    }
+}
+
+executa2();
