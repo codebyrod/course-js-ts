@@ -52,7 +52,3 @@ class Pessoa {
 }
 
 // 9. O professor disse que hoje raramente ele usa babel, que quando ele quer algo rápido ele vai pelo site e converte por lá
-
-
-
-
