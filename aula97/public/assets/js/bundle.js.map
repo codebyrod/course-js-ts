@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;AAAAA,KAAK,CAAC,YAAD,CAAL,C","sources":["webpack://aula97/./src/index.js"],"sourcesContent":["alert('Olá Mundo!')"],"names":["alert"],"sourceRoot":""}
