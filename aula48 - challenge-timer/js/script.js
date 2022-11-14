@@ -5,16 +5,21 @@ const zerar = document.querySelector('.zerar');
 
 function createSeconds (sec) {
     const seconds = new Date (sec * 1000); //Estamos multiplicando por mil newDate recebe milisegudnos
-    return seconds.toLocaleTimeString('pt-BR', {
+    let teste =  seconds.toLocaleTimeString('pt-BR', {
         hour12: false,
         timeZone: 'UTC' //Estamos usando TimeZone UTC para fixar o time da nossa localidade
     })
+    console.log(teste);
+    return teste    
 }
 
-let segundos = 0;
-let timer;
+
 
 function iniciaRelogio() {
+    let segundos = 0;
+    let timer;
+    
+    
     timer = setInterval(function() {
     segundos++;
     clock.innerHTML = createSeconds(segundos)
@@ -24,6 +29,7 @@ function iniciaRelogio() {
 document.addEventListener('click', function(e) {
     const element = e.target;
     if (element.classList.contains('iniciar')) {
+        
         clock.classList.remove('pausado');
         clearInterval(timer); //impedir que mais de um timer esteja rodando junto.
         iniciaRelogio();
